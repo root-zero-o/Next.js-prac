@@ -8,6 +8,7 @@ const Home = () => {
         (async () => {
             const {results} = await ( 
                 await fetch('/api/movies')).json();
+                // next.config.js에 키를 숨겼다 !
         setMovies(results);
         })();
     },[]);
