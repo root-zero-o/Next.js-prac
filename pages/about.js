@@ -1,8 +1,7 @@
 import NavBar from "../components/NavBar";
 
 const Potato = () => {
-    return <div>
-        <NavBar/>
+    return <div>        
         <h1>About</h1>
     </div>
 }
