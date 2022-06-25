@@ -3,8 +3,8 @@ import { useRouter } from "next/router";
 
 const NavBar = () => {
 
-    const router = useRouter();
-    console.log(router)  // location에 대한 정보가 나온다 !
+    const router = useRouter(); // location에 대한 정보가 나온다 !
+    
     return (
         <nav>
         <img src="/vercel.svg" />

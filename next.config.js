@@ -21,6 +21,10 @@ const nextConfig = {
         destination: `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`
         // rewrites는 유저가 url이 바뀌는 것을 알 수 없다.
         // key값이 나오는 url을 숨길 수 있다.
+      },
+      {
+        source: "/api/movies/:id",
+        destination: `https://api.themoviedb.org/3/movie/:id?api_key=${API_KEY}`
       }
     ]
   }
